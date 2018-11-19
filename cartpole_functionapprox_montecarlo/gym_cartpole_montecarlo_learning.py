@@ -25,7 +25,7 @@ DATA_COLLECTION_NUM_EPISODES = 100
 TRAIN_NUM_BATCHES_PER_EPOCH = 200
 TEST_NUM_EPISODES = 50
 
-LAMBDA = 0.0001    # speed of decay
+LAMBDA = 0.01    # speed of decay
 MAX_EPSILON = 1
 MIN_EPSILON = 0.01 # stay a bit curious even when getting old
 
